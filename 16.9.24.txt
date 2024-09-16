@@ -1,0 +1,9 @@
+a = [1,2,3,4]
+res = []
+c= 1
+for i in range(len(a)):
+        b = a[i]
+        c *= b
+for i in range(len(a)):
+    res.append(c//a[i])
+print(res)
